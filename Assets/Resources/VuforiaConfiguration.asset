@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2067402452, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: VuforiaConfiguration
+  m_EditorClassIdentifier: 
+  vuforia:
+    vuforiaLicenseKey: AVkHi+r/////AAABmWJ7y8hRckVirdStmawhphlJU/nn7ZPTxwhWbkiq0yqzwPhzg/LSaL+rzIQpCU4mPhTbaciTzknvwsSvzEablZWhweoEzFgixrn29u+JD+LzNuGL2Q6vCUv++kR872ysocBR9hEwtBvvwZY0KNzzo/dQ6cqzLKilybdkoODILtMWo9DBawJbnd7qb82u9yyKG7TCK9xETgw4MG/+/M75gfJ9a2K3LKZ+fM5Nm8XfaaB8mawrw1/CJLKaEdKvdIFD1MA1OLUFj4OoSGQWs7C6yyDy6qYdYPu+xzguyaqg4PTJQHW8EpHT3BslDBbmGF+cljSt7KvdMtNbbC79EKqLPyxrVwWXRc1zr6M4A7vKah5i
+    ufoLicenseKey: QVNKK3Z3Ny8vLy8vQUFBQ0tLSGJPZURrdVViR3JqVGRIamI1Z1hOU2dsRWg2TXBEZlZPOE9uZU5ZOTRNcjdSOTZRV0RWMjgyNlRKV3ZCSkh0ZVRlbURpSzRmNEcxQW9weFBJOENTa3g3UVJrMmZmeGNoYnBaVThONWkxbHFBbGkrUlhJQjVTckZnaENMWCt6cnZKcnJxbGlwSm8wUGVuWG9NQTUyL2VyOFJIT1NSL3FJcGlEdytNWHNKTFVIajdOQ09vYWVNSVkrdlVzY0RSYWJROXpaMnE2YXpQTFRnQk9sWnU1MGZ3M2RZd1A3S29ZQTA2VXNFZzRXejdSVXdsMDJiVjBKRk5ZUXZiNGh4NVJkaXZob1EzRzY5QlRGNlJwM1gvNkVNVm43T2hzNW8vU0JxMUIvVXZoSzBQUm5yekhrdm9ObVFWWUV6ZWlGby9VSW14Z3FLN0R3ck9STmQ1bVRCQXFEUVNtSXl4cnVuREI1MWxzeVdHSmRrdUI=
+    delayedInitialization: 0
+    cameraDeviceModeSetting: -1
+    maxSimultaneousImageTargets: 1
+    maxSimultaneousObjectTargets: 1
+    useDelayedLoadingObjectTargets: 0
+    cameraDirection: 0
+    mirrorVideoBackground: 0
+  digitalEyewear:
+    cameraOffset: 0.06
+    distortionRenderingLayer: 31
+    eyewearType: 0
+    stereoFramework: 0
+    seeThroughConfiguration: 0
+    viewerName: 
+    viewerManufacturer: 
+    useCustomViewer: 0
+    customViewer:
+      Version: 0
+      Name: 
+      Manufacturer: 
+      ButtonType: 0
+      ScreenToLensDistance: 0
+      InterLensDistance: 0
+      TrayAlignment: 0
+      LensCenterToTrayDistance: 0
+      DistortionCoefficients: {x: 0, y: 0}
+      FieldOfView: {x: 0, y: 0, z: 0, w: 0}
+      ContainsMagnet: 0
+  databaseLoad:
+    dataSetsToLoad:
+    - Valentines_Day_Practice
+    dataSetsToActivate:
+    - Valentines_Day_Practice
+  videoBackground:
+    clippingMode: 0
+    numDivisions: 2
+    videoBackgroundShader: {fileID: 15311, guid: 0000000000000000f000000000000000,
+      type: 0}
+    matteShader: {fileID: 15310, guid: 0000000000000000f000000000000000, type: 0}
+    videoBackgroundEnabled: 1
+  deviceTracker:
+    autoInitTracker: 0
+    autoStartTracker: 0
+    trackingMode: 0
+    posePrediction: 0
+    modelCorrectionMode: 0
+    modelTransformEnabled: 0
+    modelTransform: {x: 0, y: 0.1, z: -0.1}
+  smartTerrain:
+    autoInitTracker: 0
+    autoStartTracker: 0
+  webcam:
+    deviceNameSetInEditor: FULL HD 1080P Webcam
+    flipHorizontally: 0
+    turnOffWebCam: 0
+    renderTextureLayer: 30
